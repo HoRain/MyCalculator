@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                         sb.append("------评估结果----------\n");
                         if(manRadioButton.isChecked()){
                             sb.append("男性标准身高");
+                            //
                             double result=evaluateHeight(weight,"男");
                             sb.append((int)result+"厘米");
                         }else{
